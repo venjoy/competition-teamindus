@@ -1,0 +1,25 @@
+{
+    "name": "competition/indus",
+    "authors": [
+        {
+            "name": "Joy",
+            "email": "joy@venjoy.xyz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"            
+        },
+        "files": [
+            "src/helpers/app.php",
+            "src/helpers/path.php",
+            "src/helpers/misc.php"
+        ]
+    },
+    "require": {
+        "php-di/php-di": "^5.4"
+    },
+    "require-dev": {
+        "kint-php/kint": "^1.1"
+    }
+}
