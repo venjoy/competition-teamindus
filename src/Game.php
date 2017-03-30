@@ -38,6 +38,11 @@ class Game
         return $this->data[$pos[0]][$pos[1]] === 'x';
     }
 
+    public function isNegativePoint($pos)
+    {
+        return $this->data[$pos[0]][$pos[1]] < 0;
+    }
+
     public function placePoint($point, $pos)
     {
         $this->data[$pos[0]][$pos[1]] = $point;
